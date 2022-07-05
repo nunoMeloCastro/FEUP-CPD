@@ -1,0 +1,202 @@
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 4096
+Block Size? 128
+Time: 47.549 seconds
+Result matrix: 
+8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 
+L1 DCM: 27143912897 
+L2 DCM: 17277209826 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: ^C
+up201906478@feup-b205d04:~/Desktop/g06/assign1/src$ g++ -O2 matrixMul.cpp -o fileout -lpapi 
+up201906478@feup-b205d04:~/Desktop/g06/assign1/src$ ./fileout
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 4096
+Block Size? 128
+Time: 48.608 seconds
+Result matrix: 
+8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 
+L1 DCM: 27157819472 
+L2 DCM: 17452121355 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: ^C
+up201906478@feup-b205d04:~/Desktop/g06/assign1/src$ g++ -O2 matrixMul.cpp -o fileout -lpapi 
+up201906478@feup-b205d04:~/Desktop/g06/assign1/src$ ./fileout
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 4096
+Block Size? 128
+Time: 47.930 seconds
+Result matrix: 
+8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 
+L1 DCM: 27161584778 
+L2 DCM: 17631631122 
+TOT CYC: 223596347916 
+TOT INS: 481338624698 
+LD INS: 206158478213 
+SR INS: 68769816171 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 4096
+Block Size? 256
+Time: 48.025 seconds
+Result matrix: 
+8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 
+L1 DCM: 27126628967 
+L2 DCM: 16996868178 
+TOT CYC: 223497209795 
+TOT INS: 481338619295 
+LD INS: 206158496136 
+SR INS: 68769815679 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3           
+Dimensions: lins=cols ? 4096
+Block Size? 512
+Time: 47.784 seconds
+Result matrix: 
+8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 8.39066e+06 
+L1 DCM: 27146372491 
+L2 DCM: 17242107857 
+TOT CYC: 222284485153 
+TOT INS: 481338619271 
+LD INS: 206158496005 
+SR INS: 68769815683 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 6144
+Block Size? 128
+Time: 159.644 seconds
+Result matrix: 
+1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 
+L1 DCM: 91387723841 
+L2 DCM: 58721918238 
+TOT CYC: 744749338274 
+TOT INS: 1624177626286 
+LD INS: 695784840648 
+SR INS: 232041487594 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 6144
+Block Size? 256
+Time: 166.315 seconds
+Result matrix: 
+1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 
+L1 DCM: 91446267537 
+L2 DCM: 58834145914 
+TOT CYC: 764025074578 
+TOT INS: 1624177628247 
+LD INS: 695784843104 
+SR INS: 232041487593 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 6144
+Block Size? 512
+Time: 158.526 seconds
+Result matrix: 
+1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 1.88774e+07 
+L1 DCM: 91775973791 
+L2 DCM: 59068952944 
+TOT CYC: 739052888062 
+TOT INS: 1624177626009 
+LD INS: 695784839028 
+SR INS: 232041487593 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 8192
+Block Size? 128
+Time: 398.155 seconds
+Result matrix: 
+3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 
+L1 DCM: 215475497522 
+L2 DCM: 152736604638 
+TOT CYC: 1857743756581 
+TOT INS: 3849499467479 
+LD INS: 1649267692400 
+SR INS: 549957147914 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 8192
+Block Size? 256
+Time: 386.809 seconds
+Result matrix: 
+3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 
+L1 DCM: 216432570451 
+L2 DCM: 153279502159 
+TOT CYC: 1805594812173 
+TOT INS: 3849499464605 
+LD INS: 1649267689772 
+SR INS: 549957147909 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 8192
+Block Size? 512
+Time: 421.482 seconds
+Result matrix: 
+3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 3.35585e+07 
+L1 DCM: 215437365918 
+L2 DCM: 157737862691 
+TOT CYC: 1927633142996 
+TOT INS: 3849499491403 
+LD INS: 1649267702150 
+SR INS: 549957147912 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 3
+Dimensions: lins=cols ? 10240
+Block Size? 512
+Time: 793.054 seconds
+Result matrix: 
+5.24339e+07 5.24339e+07 5.24339e+07 5.24339e+07 5.24339e+07 5.24339e+07 5.24339e+07 5.24339e+07 5.24339e+07 5.24339e+07 
+L1 DCM: 419850660207 
+L2 DCM: 457550609590 
+TOT CYC: 3672337699788 
+TOT INS: 7518081410557 
+LD INS: 3221225875380 
+SR INS: 1074056404199 
+
+1. Multiplication
+2. Line Multiplication
+3. Block Multiplication
+Selection?: 

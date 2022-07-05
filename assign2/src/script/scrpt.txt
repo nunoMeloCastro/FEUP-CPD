@@ -1,0 +1,10 @@
+java Store 230.0.0.0 4446 127.0.0.1 8013
+java TestClient 127.0.0.3:8013 join
+java Store 230.0.0.0 4446 127.0.0.1 8011
+java TestClient 127.0.0.1:8011 join
+java TestClient 127.0.0.1:8011 put ../files/test1.txt
+java TestClient 127.0.0.1:8011 get chave_dada
+java TestClient 127.0.0.1:8011 delete chave_dada
+java Store 230.0.0.0 4446 127.0.0.2 8012
+java TestClient 127.0.0.2:8012 join
+java TestClient 127.0.0.1:8011 leave
